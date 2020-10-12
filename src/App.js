@@ -1,15 +1,11 @@
 import React from 'react';
-import Contador from './components/Contador';
-import Jsx from './components/Jsx'
+import FormHook from './components/FormHook';
 
 function App() {
   return (
-    <div>
+    <div className="container mt-5">
       <h1>Curso de React</h1>
-      <hr />
-      <Contador />
-      <hr />
-      <Jsx />
+      <FormHook />
     </div>
   );
 }
