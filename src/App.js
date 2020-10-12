@@ -1,11 +1,11 @@
 import React from 'react';
-import FormHook from './components/FormHook';
+import FormTest from './components/FormTest';
 
 function App() {
   return (
     <div className="container mt-5">
       <h1>Curso de React</h1>
-      <FormHook />
+      <FormTest />
     </div>
   );
 }
