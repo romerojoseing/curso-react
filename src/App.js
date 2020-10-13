@@ -1,11 +1,11 @@
 import React from 'react';
-import FormTest from './components/FormTest';
+import Crud from './components/Crud';
 
 function App() {
   return (
     <div className="container mt-5">
       <h1>Curso de React</h1>
-      <FormTest />
+      <Crud />
     </div>
   );
 }
